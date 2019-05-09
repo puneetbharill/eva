@@ -1,17 +1,17 @@
-baseURL = "http://example.org/"
+baseURL = "https://acrisprstory.com/"
 languageCode = "en-us"
 title = "EVA - a CRISPR story"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 canonifyURLS = true
 
 [Params]
-  tagline = "Osprey Example Site"
-  author = "Toma Nistor"
-  description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
+  tagline = "EVA - a CRISPR story"
+  author = "Puneet Bharill"
+  description = "A short film about CRISPR technology and the ethical, moral and legal implications, its use may have on humans."
   logoBig = "/images/eva-poster.jpg"
   logoSmall = "/images/eva-logo.png"
   favicon = "favicon.ico"
-  opengraphImage = "/images/osprey.png"
+  opengraphImage = "/images/eva-poster.jpg"
   email = ""
   googleTagManager = ""
   customCSS = false 

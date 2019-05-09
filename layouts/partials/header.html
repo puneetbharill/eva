@@ -28,7 +28,6 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer-when-downgrade">
-  <meta name="generator" content="{{ .Hugo.Generator }}">
   <base href="{{ .Site.BaseURL }}">
 
   {{ if .Description }}
@@ -54,7 +53,10 @@
   <meta property="og:url" content="{{ .Site.BaseURL }}">
 
   {{ if .Site.Params.opengraphImage}}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.opengraphImage}}">
+    <meta property="og:image:url" content="{{ .Site.BaseURL }}{{ .Site.Params.opengraphImage}}">
+    <meta property="og:image:width" content="544">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="{{ .Site.Title }}">
   {{ end }}
 
   {{ if .Description }}
