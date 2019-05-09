@@ -5,8 +5,7 @@
     {{ partial "body-top" . }}
     <main>
 
-      <!-- About -->
-      {{ partial "about.html" . }}
+      {{ partial "synopsis.html" . }}
 
       <!-- Gallery -->
       {{ if not (eq (len (where .Data.Pages "Section" "gallery")) 0) }}
