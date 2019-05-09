@@ -11,7 +11,15 @@
     </url>
   
     <url>
+      <loc>http://example.org/stills/</loc>
+    </url>
+  
+    <url>
       <loc>http://example.org/support/</loc>
+    </url>
+  
+    <url>
+      <loc>http://example.org/team/</loc>
     </url>
   
     <url>

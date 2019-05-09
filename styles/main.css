@@ -870,6 +870,12 @@ h3 {
     h3 {
       font-size: 1.375rem; } }
 
+.justify {
+  text-align: justify; }
+
+.entry-content {
+  text-align: justify; }
+
 * {
   margin: 0;
   padding: 0;
@@ -909,6 +915,11 @@ header {
     font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif; }
   header .cursor {
     animation: 1s blink step-end infinite; }
+
+.laurels img {
+  width: 300px;
+  display: inline;
+  margin-right: 30px; }
 
 strong {
   font-weight: 600; }
@@ -995,7 +1006,6 @@ blockquote {
     content: '\201D'; }
 
 img {
-  display: block;
   max-width: 100%;
   margin: 0 auto; }
 
@@ -1131,11 +1141,6 @@ h1, h2, h3 {
   .content time {
     margin-left: 3px; }
   .content a {
-    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
-    background-image: linear-gradient(#4E6B6C, #4E6B6C);
-    background-size: 1px 2px;
-    background-repeat: repeat-x;
-    background-position: 0 95%;
     text-decoration: none; }
     .content a:hover {
       color: #4E6B6C; }
@@ -1167,11 +1172,6 @@ section.partial {
       section.partial p {
         font-size: 1.375rem; } }
   section.partial a {
-    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
-    background-image: linear-gradient(#4E6B6C, #4E6B6C);
-    background-size: 2px 3px;
-    background-repeat: repeat-x;
-    background-position: 0 95%;
     text-decoration: none; }
     section.partial a:hover {
       color: #4E6B6C; }

@@ -16,10 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/about/</guid>
-      <description>About hallo
-hallo
-hallo
-hallo</description>
+      <description>Synopsis Puneet and Isabel’s research has achieved a clinical milestone using CRISPR technology to transplant a genetically modified pig liver into a human. This is just the beginning though and Isabel is on the cusp of perfecting CRISPR so that it can be used to modify human genome without any adverse side effects. The consequences could be unprecedented - a cure for many genetic disorders; but also potential genome editing of our future generations without their consent.</description>
     </item>
     
     <item>
@@ -28,6 +25,15 @@ hallo</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/festivals/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/stills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/stills/</guid>
       <description></description>
     </item>
     
@@ -38,6 +44,16 @@ hallo</description>
       
       <guid>http://example.org/support/</guid>
       <description>ihallo</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/team/</guid>
+      <description>Mathias Stroers Quit my Job in the Oil business to make movies. Started as a lighting trainee with a daily series production and worked my way up to be a gaffer. Worked on a couple of short movies including &amp;lsquo;EVA - A CRISPR Story&amp;rsquo; which was a great experience with great people.
+David Menke David is composer, multi-instrumentist, producer and sound engineer, graduated from University of Music and Performing Arts Vienna (MDW) and CNSM in Paris.</description>
     </item>
     
   </channel>
