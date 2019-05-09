@@ -910,7 +910,7 @@ header {
   header div {
     z-index: 101; }
   header img {
-    height: 90%; }
+    max-height: 41.25rem; }
   header h1 {
     font-family: "Lato", "Hel­vetica", Arial, sans-serif; }
   header .cursor {
