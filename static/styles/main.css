@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Rubik|Bitter");
+@import url("https://fonts.googleapis.com/css?family=Lato|Bitter");
 .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-offset-0, .col-xs-offset-1, .col-xs-offset-2, .col-xs-offset-3, .col-xs-offset-4, .col-xs-offset-5, .col-xs-offset-6, .col-xs-offset-7, .col-xs-offset-8, .col-xs-offset-9, .col-xs-offset-10, .col-xs-offset-11, .col-xs-offset-12 {
   box-sizing: border-box;
   flex: 0 0 auto;
@@ -894,7 +894,7 @@ html {
 body {
   font-size: 1.25rem;
   color: #F7F7F7;
-  font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif;
+  font-family: "Lato", "Hel­vetica", Arial, sans-serif;
   line-height: 1.1;
   background-color: #000; }
   @media (max-width: 48em) {
@@ -912,7 +912,7 @@ header {
   header img {
     height: 90%; }
   header h1 {
-    font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif; }
+    font-family: "Lato", "Hel­vetica", Arial, sans-serif; }
   header .cursor {
     animation: 1s blink step-end infinite; }
 
@@ -1058,7 +1058,7 @@ nav {
   box-shadow: 0 2px 2px rgba(255, 255, 255, 0.4); }
   nav h3 {
     margin: 0;
-    font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif;
+    font-family: "Lato", "Hel­vetica", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600; }
@@ -1203,13 +1203,13 @@ section.partial {
   .overlay h2 {
     color: #FFF; }
   .overlay h3 {
-    font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif; }
+    font-family: "Lato", "Hel­vetica", Arial, sans-serif; }
 
 .blog {
   min-height: 100vh; }
   .blog h3 {
     margin: 0 0 1.375rem;
-    font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif; }
+    font-family: "Lato", "Hel­vetica", Arial, sans-serif; }
 
 .contact {
   width: 100%;
