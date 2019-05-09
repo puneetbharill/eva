@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://example.org/about/</loc>
+      <loc>https://acrisprstory.com/about/</loc>
     </url>
   
     <url>
-      <loc>http://example.org/festivals/</loc>
+      <loc>https://acrisprstory.com/festivals/</loc>
     </url>
   
     <url>
-      <loc>http://example.org/stills/</loc>
+      <loc>https://acrisprstory.com/stills/</loc>
     </url>
   
     <url>
-      <loc>http://example.org/support/</loc>
+      <loc>https://acrisprstory.com/support/</loc>
     </url>
   
     <url>
-      <loc>http://example.org/team/</loc>
+      <loc>https://acrisprstory.com/team/</loc>
     </url>
   
     <url>
-      <loc>http://example.org/</loc>
+      <loc>https://acrisprstory.com/</loc>
       <priority>0</priority>
     </url>
   
