@@ -14,17 +14,7 @@ canonifyURLS = true
   opengraphImage = "/images/eva-poster.jpg"
   email = ""
   googleTagManager = ""
-  customCSS = false 
-
-  # Social media links in footer
-  twitter = "TomaNistor"
-  linkedin = "tomanistor"
-  github = "tomanistor"
-  facebook = ""
-
-  # Copyright and theme author credit in footer
-  copyright = false
-  credit = false
+  customCSS = false
 
 [[menu.main]]
   name = "Festivals"
