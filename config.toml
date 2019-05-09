@@ -1,0 +1,50 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "EVA - a CRISPR story"
+theme = "osprey"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+canonifyURLS = true
+
+[Params]
+  tagline = "Osprey Example Site"
+  author = "Toma Nistor"
+  description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
+  logoBig = "/images/eva-poster.jpg"
+  logoSmall = "/images/osprey-logo.png"
+  favicon = "favicon.ico"
+  opengraphImage = "/images/osprey.png"
+  email = ""
+  googleTagManager = ""
+  customCSS = false 
+
+  # Social media links in footer
+  twitter = "TomaNistor"
+  linkedin = "tomanistor"
+  github = "tomanistor"
+  facebook = ""
+
+  # Copyright and theme author credit in footer
+  copyright = false
+  credit = false
+
+[[menu.main]]
+  name = "Festivals"
+  url  = "/#festivals"
+  weight = 1
+[[menu.main]]
+  name = "Team"
+  url  = "/#team"
+  weight = 2
+[[menu.main]]
+  name = "Stills"
+  url  = "/#production"
+  weight = 3
+[[menu.main]]
+  name = "CRISPR"
+  url  = "/#crispr"
+  weight = 4
+[[menu.main]]
+  name = "Support us"
+  url  = "/#support"
+  weight = 5
+
