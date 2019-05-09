@@ -14,7 +14,6 @@ canonifyURLS = true
   opengraphImage = "/images/eva-poster.jpg"
   email = ""
   googleTagManager = ""
-  customCSS = false
 
 [[menu.main]]
   name = "Festivals"

@@ -80,10 +80,6 @@
 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/styles/{{ if .Site.Params.cacheBustCSS }}{{ index .Site.Data.cachedAssets "main.css" }}{{ else }}main.css{{ end }}" type="text/css">
 
-  {{ if .Site.Params.customCSS }}
-    {{ partial "css.html" . }}
-  {{ end }}
-
   {{ if .Site.GoogleAnalytics }}
     {{ template "_internal/google_analytics.html" . }}
   {{ end }}
