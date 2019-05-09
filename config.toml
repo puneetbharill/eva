@@ -1,7 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "EVA - a CRISPR story"
-theme = "osprey"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 canonifyURLS = true
 
@@ -10,7 +9,7 @@ canonifyURLS = true
   author = "Toma Nistor"
   description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
   logoBig = "/images/eva-poster.jpg"
-  logoSmall = "/images/osprey-logo.png"
+  logoSmall = "/images/eva-logo.png"
   favicon = "favicon.ico"
   opengraphImage = "/images/osprey.png"
   email = ""
@@ -29,22 +28,18 @@ canonifyURLS = true
 
 [[menu.main]]
   name = "Festivals"
-  url  = "/#festivals"
+  url  = "/festivals"
   weight = 1
 [[menu.main]]
   name = "Team"
-  url  = "/#team"
+  url  = "/team"
   weight = 2
 [[menu.main]]
   name = "Stills"
-  url  = "/#production"
+  url  = "/stills"
   weight = 3
 [[menu.main]]
-  name = "CRISPR"
-  url  = "/#crispr"
-  weight = 4
-[[menu.main]]
   name = "Support us"
-  url  = "/#support"
+  url  = "/#contact"
   weight = 5
 
