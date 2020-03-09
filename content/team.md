@@ -1,4 +1,15 @@
 
+![](/images/puneet.jpg)
+### [Puneet Bharill](https://bharill.com/)
+
+Born in India, just like most people around him, Puneet loved cinema. 
+Following his dream of making his own film, he wrote his first screenplay in 2015 during his post doctoral research at the University hospital, 
+Cologne where CRISPR was just being introduced as a technique in lab.  
+In 2018 he finally got the opportunity to direct this no-budget project which completed in February 2019.  
+Puneet has a PhD in Biochemistry and Molecular Biology from the University of Arkansas for Medical Sciences and 
+is currently working as a Production Assistant in Cologne, Germany.
+
+
 ![](/images/mathias-stroers.jpg)
 ### [Mathias Stroers](https://www.crew-united.com/de/Mathias-Stroers_441606.html)
 
