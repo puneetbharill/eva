@@ -28,7 +28,7 @@ canonifyURLS = true
   url  = "/stills"
   weight = 3
 [[menu.main]]
-  name = "Support us"
+  name = "Contact"
   url  = "/#contact"
   weight = 5
 
