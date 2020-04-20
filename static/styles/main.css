@@ -916,6 +916,9 @@ header {
   header .cursor {
     animation: 1s blink step-end infinite; }
 
+.laurels {
+  text-align: center;
+}
 .laurels img {
   width: 300px;
   display: inline;
