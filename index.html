@@ -64,11 +64,13 @@
     <div class="col-xs-12">
       <div class="row center-xs">
         <div class="col-xs-12" style="">
-          <iframe id="player" style="height:80vh;" src="https://www.youtube-nocookie.com/embed/htOcNv_h1Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="player" style="height:80vh;width:100vw;" src="https://www.youtube-nocookie.com/embed/htOcNv_h1Fg" frameborder="0" allow="accelerometer; fullscreen; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <script>
             window.addEventListener("DOMContentLoaded", function(){
               var player = document.getElementById('player');
-              player.style.width = parseInt(player.offsetHeight*1.77) + "px";
+              if(window.innerHeight < window.innerWidth) {
+                player.style.width = parseInt(player.offsetHeight*1.77) + "px";
+              }
             });
           </script>
         </div>
