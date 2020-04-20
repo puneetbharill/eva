@@ -9,7 +9,15 @@
   <header class="row middle-xs center-xs">
     <div class="col-xs-12">
       <div class="row center-xs">
-        <div class="col-xs-12"><img src="{{ .Site.Params.logoBig}}" alt="{{ .Site.Title }}"></div>
+        <div class="col-xs-12" style="">
+          <iframe id="player" style="height:80vh;" src="https://www.youtube-nocookie.com/embed/htOcNv_h1Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <script>
+            window.addEventListener("DOMContentLoaded", function(){
+              var player = document.getElementById('player');
+              player.style.width = parseInt(player.offsetHeight*1.77) + "px";
+            });
+          </script>
+        </div>
       </div>
     </div>
   </header>

@@ -5,21 +5,16 @@
     {{ partial "body-top" . }}
     <main>
 
-      {{ partial "trailer.html" . }}
-
       {{ partial "synopsis.html" . }}
 
-      <!-- Gallery -->
       {{ if not (eq (len (where .Data.Pages "Section" "gallery")) 0) }}
         {{ partial "gallery.html" . }}
       {{ end }}
 
-      <!-- Blog -->
       {{ if not (eq (len (where .Data.Pages "Section" "blog")) 0) }}
         {{ partial "blog.html" . }}
       {{ end }}
 
-      <!-- Contact -->
       {{ partial "contact.html" . }}
 
     </main>
