@@ -60,12 +60,18 @@
 
   <body>
     
-
-
   <header class="row middle-xs center-xs">
     <div class="col-xs-12">
       <div class="row center-xs">
-        <div class="col-xs-12"><img src="https://acrisprstory.com/images/eva-poster.jpg" alt="EVA - a CRISPR story"></div>
+        <div class="col-xs-12" style="">
+          <iframe id="player" style="height:80vh;" src="https://www.youtube-nocookie.com/embed/htOcNv_h1Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <script>
+            window.addEventListener("DOMContentLoaded", function(){
+              var player = document.getElementById('player');
+              player.style.width = parseInt(player.offsetHeight*1.77) + "px";
+            });
+          </script>
+        </div>
       </div>
     </div>
   </header>
@@ -115,24 +121,6 @@
 
     <main>
 
-      <section class="partial" id="trailer">
-  <div class="container">
-
-    <div class="row">
-      <div class="col-xs-12">
-        <h2>Film</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 middle-xs" style="margin-top:1.375rem; text-align:center;">
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/htOcNv_h1Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
       
 
 
@@ -163,12 +151,9 @@ How far will Isabel go in her pursuit?</p>
 
 
       
-      
 
       
-      
 
-      
       <section class="partial" id="contact">
   <div class="container">
 
